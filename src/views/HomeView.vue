@@ -1,18 +1,39 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div v-if="showTable">
+      <h1>Loading...</h1>
+    </div>
+    <div v-else>
+      <Table :users="userdb"/>
+    </div>
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+<script setup>
+import Table from "../components/table/Table";
+import axios from "axios";
+import { computed, onMounted, reactive, ref } from 'vue';
+import { useStore } from "vuex";
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+const store = useStore();
+
+let showTable = ref(true)
+let userdb = reactive([])
+
+const connectDB = async () =>{
+  const users = await axios.get('http://localhost:3000/users').then((response) =>{
+    userdb = response.data;
+    showTable.value = false
+  });
 }
+
+const zaybal =  async () => {
+  const foo = await store.dispatch('getUserDb');
+}
+
+zaybal()
+
+connectDB()
+
+console.log(userdb.length);
 </script>

@@ -1,0 +1,134 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "brand": "apple",
+            "artnumber": 31467,
+            "weight": 5,
+            "quantaty": 98,
+            "price": 100,
+            "stock": 10
+        },
+        {
+            "id": 2,
+            "name": "Banan",
+            "brand": "Bananza",
+            "artnumber": 314267,
+            "weight": 51,
+            "quantaty": 918,
+            "price": 400,
+            "stock": 121
+        },
+        {
+            "id": 3,
+            "name": "Water Melon",
+            "brand": "bliss",
+            "artnumber": 312467,
+            "weight": 25,
+            "quantaty": 298,
+            "price": 100,
+            "stock": 10
+        },
+        {
+            "id": 4,
+            "name": "Pineaple",
+            "brand": "bliss",
+            "artnumber": 31467,
+            "weight": 522,
+            "quantaty": 98,
+            "price": 100,
+            "stock": 10
+        },
+        {
+            "id": 5,
+            "name": "Honey",
+            "brand": "dena",
+            "artnumber": 31467,
+            "weight": 5,
+            "quantaty": 98,
+            "price": 100,
+            "stock": 10
+        },
+        {
+            "id": 6,
+            "name": "Flour",
+            "brand": "garden",
+            "artnumber": 31467,
+            "weight": 2012,
+            "quantaty": 98,
+            "price": 50,
+            "stock": 10
+        },
+        {
+            "id": 7,
+            "name": "Pateto",
+            "brand": "garden",
+            "artnumber": 31467,
+            "weight": 125,
+            "quantaty": 98,
+            "price": 10,
+            "stock": 12
+        },
+        {
+            "id": 8,
+            "name": "Tomato",
+            "brand": "garden",
+            "artnumber": 12212,
+            "weight": 121,
+            "quantaty": 912128,
+            "price": 10120,
+            "stock": 1220
+        },
+        {
+            "id": 9,
+            "name": "ZZZ Word",
+            "brand": "Dinay",
+            "artnumber": 314612127,
+            "weight": "30",
+            "quantaty": 8,
+            "price": 1212,
+            "stock": 5121
+        },
+        {
+            "id": 10,
+            "name": "Apelsin",
+            "brand": "my garden",
+            "artnumber": 31467,
+            "weight": "5",
+            "quantaty": 12122,
+            "price": 121200,
+            "stock": 112120
+        },
+        {
+            "id": 11,
+            "name": "Mandarin",
+            "brand": "my garden",
+            "artnumber": 31467,
+            "weight": "5",
+            "quantaty": 98,
+            "price": 100,
+            "stock": 10
+        },
+        {
+            "id": 12,
+            "name": "Malli Swarch",
+            "brand": "apple",
+            "artnumber": 31121467,
+            "weight": "5",
+            "quantaty": 912128,
+            "price": 1012120,
+            "stock": 112120
+        },
+        {
+            "id": 13,
+            "name": "Malli Swarch",
+            "brand": "bananza",
+            "artnumber": 12122121,
+            "weight": 5121,
+            "quantaty": 92128,
+            "price": 101210,
+            "stock": 112120
+        }
+    ]
+}
